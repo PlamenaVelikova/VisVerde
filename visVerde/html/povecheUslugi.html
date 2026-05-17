@@ -1,0 +1,238 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vis Verde - Услуги</title>
+
+    <link rel="stylesheet" href="/css/navigationBar.css">
+    <link rel="stylesheet" href="/css/sotsialniMrezi.css">
+    <link rel="stylesheet" href="/css/mezhdinniSnimki.css">
+    <link rel="stylesheet" href="/css/slideshow.css">
+    <link rel="stylesheet" href="/css/logo.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/dolna_sekciya.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="icon" href="/photos/Logo.png" type="image/x-icon">
+</head>
+<body>
+    
+<header>
+    <section class="middle-image">
+        <h1 data-aos="fade-down">
+            <img src="/photos/Logo.png" class="logo">
+            Vis Verde
+        </h1>
+    </section>
+
+    <nav class="navbar" data-aos="fade-down" data-aos-delay="100">
+        <ul class="nav-links">
+            <li><a href="/firtsPage.html">Начало</a></li>
+            <li><a href="/html/uslugi.html">Услуги</a></li>
+            <li class="dropdown">
+               <a href="/html/magazin.html" class="dropbtn">Магазин ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="/html/stoka.html">Всички</a></li>
+                    <li><a href="/html/stoka.html?category=цветя">Цветя</a></li>
+                    <li><a href="/html/stoka.html?category=храсти">Храсти</a></li>
+                    <li><a href="/html/stoka.html?category=дървета">Дървета</a></li>
+                    <li><a href="/html/stoka.html?category=трева">Тревни смеси</a></li>
+                </ul>
+            </li>
+            <li><a href="/html/zaNas.html">За нас</a></li>
+            <li><a href="/html/kontakti.html">Контакти</a></li>
+        </ul>
+
+        <div class="nav-extras">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Търси растение...">
+                <button type="button">🔍</button>
+            </div>
+            <div class="cart-container">
+                <a href="#" class="cart-icon">🛒 <span id="cartCount">0</span></a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-frame" data-aos="fade-up">
+       <h2>Нашите зелени суперсили</h2>
+
+       <ul class="services-list">
+            <li><span class="icon">📐</span> Проектиране на градини и дворове</li>
+            <li><span class="icon">🖥️</span> 3D визуализация на проекти</li>
+            <li><span class="icon">🌿</span> Професионално озеленяване</li>
+            <li><span class="icon">🌳</span> Засаждане на декоративни растения</li>
+            <li><span class="icon">🚜</span> Прецизно косене на трева</li>
+            <li><span class="icon">✂️</span> Оформяне и подрязване на храсти</li>
+            <li><span class="icon">💧</span> Изграждане на поливни системи</li>
+        </ul>
+        <!-- SLIDESHOW CONTAINER -->
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 7</div>
+                <img src="/photos/proektirane.png">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 7</div>
+                <img src="/photos/3d.jpg">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 7</div>
+                <img src="/photos/lawn-seed.jpg">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 7</div>
+                <img src="/photos/Zasazhdane-rastenie.jpg">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 7</div>
+                <img src="/photos/kosene_treva.jpg">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 7</div>
+                <img src="/photos/tree-triming.jpg">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">7 / 7</div>
+                <img src="/photos/watering_system.jpg">
+            </div>
+
+            <!-- стрелки -->
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+
+        <!-- Caption -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- THUMBNAILS -->
+        <div class="row">
+
+            <div class="column">
+                <img class="demo cursor"
+                src="/photos/proektirane.png"
+                onclick="currentSlide(1)"
+                alt="Проектиране">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor"
+                src="/photos/3d.jpg"
+                onclick="currentSlide(2)"
+                alt="3D градински дизайн">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor"
+                src="/photos/lawn-seed.jpg"
+                onclick="currentSlide(3)"
+                alt="Озеленяване">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor"
+                src="/photos/Zasazhdane-rastenie.jpg"
+                onclick="currentSlide(4)"
+                alt="Засаждане">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor"
+                src="/photos/kosene_treva.jpg"
+                onclick="currentSlide(5)"
+                alt="Косене на трева">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor"
+                src="/photos/tree-triming.jpg"
+                onclick="currentSlide(6)"
+                alt="Оформяне на храсти">
+            </div>
+
+            <div class="column">
+                <img class="demo cursor"
+                src="/photos/watering_system.jpg"
+                onclick="currentSlide(7)"
+                alt="Поливни системи">
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+
+    <!-- Горна част (лого + социални) -->
+    <div class="footer-top">
+        <div class="footer-brand">
+            <h2>Vis Verde</h2>
+        </div>
+
+        <div class="footer-socials">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"><img src="/ikonki/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener"><img src="/ikonki/instagram.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener"><img src="/ikonki/youtube.png" alt="YouTube"></a>
+            <a href="https://t.me" target="_blank" rel="noopener"><img src="/ikonki/telegram.png" alt="Telegram"></a>
+        </div>
+    </div>
+
+    <!-- Колони -->
+    <div class="footer-container">
+
+        <div class="footer-column">
+            <h4>Бързи връзки</h4>
+            <ul>
+                <li><a href="/firtsPage.html">Начало</a></li>
+                <li><a href="/html/uslugi.html">Услуги</a></li>
+                <li><a href="/html/magazin.html">Магазин</a></li>
+                <li><a href="/html/zaNas.html">За нас</a></li>
+                <li><a href="/html/kontakti.html">Контакти</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Контакти</h4>
+            <p>📞 +359 88 123 4567</p>
+            <p>📧 info@visverde.bg</p>
+            <p>📍 Русе, България</p>
+        </div>
+
+    </div>
+
+    <!-- Долен ред -->
+    <div class="footer-bottom">
+        <p>© 2026 Vis Verde. Всички права запазени.</p>
+    </div>
+
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+
+<script src="../javascript/magazin.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="/javascript/slideshow.js"></script>
+
+</body>
+</html>
+
