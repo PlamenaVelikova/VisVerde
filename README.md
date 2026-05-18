@@ -93,3 +93,6 @@
 - генериране на идеи за структура и дизайн;
 - подобряване на UI/UX концепции;
 - оптимизация на JavaScript функциите.
+
+repo: https://github.com/PlamenaVelikova/VisVerde
+link: https://plamenavelikova.github.io/VisVerde/
