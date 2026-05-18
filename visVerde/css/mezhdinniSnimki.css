@@ -10,7 +10,7 @@ body {
     width: 100%;
     min-height: 350px; /* вместо height */
 
-    background: url("../photos/Ozelenyavane.png");
+    background: url("../photos/Ozelenyavane.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,7 +127,7 @@ body {
     right: -25px;
     bottom: -25px;
 
-    background: url("../photos/zadenFon.png");
+    background: url("../photos/zadenFon.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     pointer-events: none;
