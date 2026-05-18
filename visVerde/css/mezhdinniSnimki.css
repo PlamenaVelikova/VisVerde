@@ -10,7 +10,7 @@ body {
     width: 100%;
     min-height: 350px; /* вместо height */
 
-    background: url("Ozelenyavane.jpg");
+    background: url("photos/Ozelenyavane.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ body {
     background:
         linear-gradient(rgba(0,0,0,0.4),
         rgba(0,0,0,0.4)),
-        url("../photos/zadenFon.jpg");
+        url("photos/zadenFon.jpg");
     background-size: cover;
     background-position: center;
 }
