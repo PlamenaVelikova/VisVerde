@@ -10,7 +10,7 @@ body {
     width: 100%;
     min-height: 350px; /* вместо height */
 
-    background: url("/photos/Ozelenyavane.png");
+    background: url("../photos/Ozelenyavane.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ body {
     background:
         linear-gradient(rgba(0,0,0,0.4),
         rgba(0,0,0,0.4)),
-        url("/photos/zadenFon.jpg");
+        url("../photos/zadenFon.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -127,7 +127,7 @@ body {
     right: -25px;
     bottom: -25px;
 
-    background: url("https://i.imgur.com/8QfQX3k.png");
+    background: url("../photos/zadenFon.png");
     background-size: cover;
     background-repeat: no-repeat;
     pointer-events: none;
