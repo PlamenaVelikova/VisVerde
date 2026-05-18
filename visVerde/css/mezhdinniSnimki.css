@@ -10,7 +10,7 @@ body {
     width: 100%;
     min-height: 350px; /* вместо height */
 
-    background: url("../photos/Ozelenyavane.jpg");
+    background: url("Ozelenyavane.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ body {
     background:
         linear-gradient(rgba(0,0,0,0.4),
         rgba(0,0,0,0.4)),
-        url("../photos/zadenFon.jpg");
+        url("zadenFon.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -127,7 +127,7 @@ body {
     right: -25px;
     bottom: -25px;
 
-    background: url(../photos/zadenFon.jpg);
+    background: url(zadenFon.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     pointer-events: none;
