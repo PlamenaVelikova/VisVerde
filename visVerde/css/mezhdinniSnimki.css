@@ -10,7 +10,7 @@ body {
     width: 100%;
     min-height: 350px; /* вместо height */
 
-    background: url("photos/Ozelenyavane.png");
+    background: url("/visVerde/photos/Ozelenyavane.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
